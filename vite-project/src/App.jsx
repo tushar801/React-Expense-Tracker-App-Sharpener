@@ -9,6 +9,7 @@ function App() {
      amount: 234,
      date: new Date(2024, 2, 23),
      LocationOfExpenditure: 'Restaurant',
+     
     },
 
     {id: 'e2', 
@@ -16,6 +17,7 @@ function App() {
     amount: 1000,
     date: new Date(2024, 2, 12),
     LocationOfExpenditure: 'Mall',
+    
    },
 
    {id: 'e3', 
@@ -23,13 +25,15 @@ function App() {
    amount: 4000,
    date: new Date(2024, 2, 13),
    LocationOfExpenditure: 'Showroom',
+   
   },
 
   {id: 'e4', 
   title: 'Travel',
   amount: 504,
   date: new Date(2024, 2, 20),
-  LocationOfExpenditure: 'Goa'
+  LocationOfExpenditure: 'Ladakh',
+  
  }
   ];
 
@@ -43,6 +47,7 @@ function App() {
           amount={expense.amount}
           date={expense.date}
           LocationOfExpenditure={expense.LocationOfExpenditure}
+          
         />
       ))}
       
